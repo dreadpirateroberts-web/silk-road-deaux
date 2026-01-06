@@ -292,3 +292,297 @@
     </div>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silk Road Deaux</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: #f5f5f5;
+            color: #333;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 0;
+        }
+        .header {
+            background: #2c2c2c;
+            color: #fff;
+            padding: 15px 20px;
+            border-bottom: 3px solid #ff6b35;
+        }
+        .header h1 {
+            font-size: 1.8em;
+            font-weight: normal;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #fff;
+        }
+        .alert-box {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+        .alert-box h2 {
+            color: #856404;
+            font-size: 1.4em;
+            margin-bottom: 10px;
+        }
+        .ransom-box {
+            background: #f8d7da;
+            border: 2px solid #dc3545;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+        .ransom-box h2 {
+            color: #721c24;
+            font-size: 1.6em;
+            margin-bottom: 15px;
+        }
+        .price {
+            font-size: 2em;
+            font-weight: bold;
+            color: #dc3545;
+            margin: 15px 0;
+        }
+        .section {
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        .section h2 {
+            font-size: 1.4em;
+            margin-bottom: 15px;
+            color: #2c2c2c;
+        }
+        .category-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .category-item {
+            border: 1px solid #ddd;
+            padding: 15px;
+            background: #fafafa;
+        }
+        .category-title {
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-bottom: 8px;
+            color: #2c2c2c;
+        }
+        .category-desc {
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 12px;
+        }
+        .item-list {
+            font-size: 0.9em;
+            line-height: 1.8;
+        }
+        .item-list p {
+            margin: 5px 0;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            font-size: 0.75em;
+            margin-left: 5px;
+            border: 1px solid;
+            border-radius: 3px;
+        }
+        .badge.free { color: #28a745; border-color: #28a745; background: #d4edda; }
+        .badge.paid { color: #ffc107; border-color: #ffc107; background: #fff3cd; }
+        .badge.verify { color: #17a2b8; border-color: #17a2b8; background: #d1ecf1; }
+        .badge.soon { color: #dc3545; border-color: #dc3545; background: #f8d7da; }
+        .download-link {
+            display: inline-block;
+            color: #007bff;
+            text-decoration: none;
+            padding: 5px 10px;
+            border: 1px solid #007bff;
+            margin-top: 10px;
+            font-size: 0.9em;
+        }
+        .download-link:hover {
+            background: #007bff;
+            color: #fff;
+        }
+        .need-list {
+            background: #e7f3ff;
+            border: 1px solid #0066cc;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+        .need-list h3 {
+            color: #004085;
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+        .bounty {
+            color: #dc3545;
+            font-weight: bold;
+            margin-top: 8px;
+        }
+        p { margin-bottom: 12px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Silk Road Deaux</h1>
+    </div>
+
+    <div class="container">
+        
+        <!-- SEEKING THE MOVIE -->
+        <div class="alert-box">
+            <h2>SEEKING: The Kessler Video</h2>
+            <p>September 1993: Lockheed hired Daniel Kessler to document CARDINAL-PHOENIX. Program didn't exist until May 1995. He filmed preparation, collision, recovery, confession.</p>
+            <p>Last seen July 8, 1995, leaving Palmdale with hard drives.</p>
+            <p><strong>I know it exists. I will pay $500,000 for complete footage. Partial footage $50K-$200K. Information leading to video $25K.</strong></p>
+            <p>Contact: [encrypted channels below]</p>
+        </div>
+
+        <!-- INTRODUCTION -->
+        <div class="section">
+            <p>If you want to know some of what I have, look below.</p>
+        </div>
+
+        <!-- RANSOM -->
+        <div class="ransom-box">
+            <h2>Consortium Offer</h2>
+            <p>To: Lockheed Martin, Boeing, Dassault Aviation, BAE Systems, Northrop Grumman, Raytheon, Pratt & Whitney</p>
+            <p>Complete archive. All files. All evidence. Permanent silence.</p>
+            <div class="price">$50,000,000 USD</div>
+            <p>Payment via cryptocurrency. Offer expires when first document goes public.</p>
+            <p><strong>Your legal counsel can download the formal offer letter here:</strong></p>
+            <a href="#" class="download-link">Download Consortium Offer Letter (FREE)</a>
+        </div>
+
+        <!-- HOW I GOT THE FILES -->
+        <div class="section">
+            <h2>How I Got The Files</h2>
+            <p>2002-2008: Greek hacker named ASTRA breached Dassault Aviation. Six years inside their network. Stole consortium documents, technical specs, legal correspondence.</p>
+            <p>March 2008: FBI tracked him down. Arrested in Athens. Made deal. Name sealed. Given six years. Then disappeared.</p>
+            <p>2019: I posted on dark web about CARDINAL-PHOENIX consortium. Three weeks later: encrypted message from ASTRA.</p>
+            <p>December 2024: Dead man's switch triggered. 47 terabytes arrived.</p>
+            <p>Everything the consortium tried to hide for thirty years.</p>
+        </div>
+
+        <!-- WHO I MAY BE -->
+        <div class="section">
+            <h2>About</h2>
+            <p>Some say I hacked Boeing in 2004. Some say I distributed Shadow Brokers NSA leaks in 2016. Some say I breached Senate Intelligence Committee in 2018.</p>
+            <p>I may be The Phantom. I may be someone else. I may be multiple people.</p>
+            <p>Doesn't matter. Files are real.</p>
+        </div>
+
+        <!-- MARKETPLACE CATEGORIES -->
+        <div class="section">
+            <h2>Browse Categories</h2>
+            <div class="category-list">
+                
+                <div class="category-item">
+                    <div class="category-title">THE CONSORTIUM</div>
+                    <div class="category-desc">Formation, members, legal wars</div>
+                    <div class="item-list">
+                        <p>Formation Agreement (1989) - $3 <span class="badge paid">BUY</span></p>
+                        <p>Meeting of Principals (1988) - $5 <span class="badge paid">BUY</span></p>
+                        <p>Pratt & Whitney Letter - $2 <span class="badge soon">SOON</span></p>
+                    </div>
+                </div>
+                
+                <div class="category-item">
+                    <div class="category-title">THE HACK</div>
+                    <div class="category-desc">ASTRA breach, arrest, disappearance</div>
+                    <div class="item-list">
+                        <p>ASTRA Arrest Report - FREE <span class="badge free">GET</span></p>
+                        <p>AP/Reuters Coverage - FREE <span class="badge free">GET</span></p>
+                        <p>Greek Police Records - $2 <span class="badge verify">VERIFY</span></p>
+                    </div>
+                </div>
+                
+                <div class="category-item">
+                    <div class="category-title">THE ENCOUNTERS</div>
+                    <div class="category-desc">1991-1994 high-altitude contacts</div>
+                    <div class="item-list">
+                        <p>LA Times Sonic Booms - FREE <span class="badge free">GET</span></p>
+                        <p>Pilot Transmission Audio - FREE <span class="badge free">LISTEN</span></p>
+                        <p>Lockheed Memo - $2 <span class="badge soon">SOON</span></p>
+                    </div>
+                </div>
+                
+                <div class="category-item">
+                    <div class="category-title">THE COLLISION</div>
+                    <div class="category-desc">March 1995 China Lake recovery</div>
+                    <div class="item-list">
+                        <p>Collision Report - $5 <span class="badge verify">VERIFY</span></p>
+                        <p>Recovery Timeline - $3 <span class="badge soon">SOON</span></p>
+                        <p>April 1995 Meeting - $10 <span class="badge verify">VERIFY</span></p>
+                    </div>
+                </div>
+                
+                <div class="category-item">
+                    <div class="category-title">THE EXCLUSION</div>
+                    <div class="category-desc">European partners denied access</div>
+                    <div class="item-list">
+                        <p>Denial Letter Sample - FREE <span class="badge free">GET</span></p>
+                        <p>41 Denials Bundle - $5 <span class="badge soon">SOON</span></p>
+                        <p>Legal Complaint - $3 <span class="badge verify">VERIFY</span></p>
+                    </div>
+                </div>
+                
+                <div class="category-item">
+                    <div class="category-title">THE ANALYSIS</div>
+                    <div class="category-desc">Post-recovery research, patents</div>
+                    <div class="item-list">
+                        <p>GyroStim Connection - FREE <span class="badge free">GET</span></p>
+                        <p>Pais Patents Analysis - $5 <span class="badge verify">VERIFY</span></p>
+                        <p>Research Files - $50K <span class="badge verify">VERIFY</span></p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- WHAT ELSE I NEED -->
+        <div class="section">
+            <h2>What Else I Need</h2>
+            
+            <div class="need-list">
+                <h3>Pathologist's Report</h3>
+                <p>Recovery reports reference "organic materials" inside the object. They called in pathologists. Gary Nolan, PhD (Stanford) name appears in marginal notes. Someone analyzed it. Someone wrote a report.</p>
+                <p class="bounty">Will pay: Complete report $1M | Partial analysis $100K-$500K | Gary Nolan info $25K</p>
+            </div>
+            
+            <div class="need-list">
+                <h3>Back-Engineering Analysis</h3>
+                <p>Post-crash studies. Quantum physicists hired (Puthoff, Davis). Salvatore Pais patents (2015-2019) appear to be simulations of recovered tech. Real schematics held by Lockheed. Video may exist of replication attempts.</p>
+                <p class="bounty">Will pay: Complete analysis $2M | Replication video $500K-$1M | Schematics $250K</p>
+            </div>
+            
+            <div class="need-list">
+                <h3>ASTRA's Identity</h3>
+                <p>Greek mathematician. Arrested March 2008. Made deal. Name sealed. Vanished. Need real name, location, what happened 2008-2024. Not because I doubt files. Because he might have more.</p>
+                <p class="bounty">Will pay: Real name $50K | Current location $100K | Direct contact $250K</p>
+            </div>
+        </div>
+
+        <!-- CONTACT -->
+        <div class="section">
+            <h2>Contact</h2>
+            <p>ProtonMail: [encrypted]</p>
+            <p>Discord: [invite only]</p>
+            <p>Dead drop coordinates provided after verification</p>
+        </div>
+
+    </div>
+</body>
+</html>
